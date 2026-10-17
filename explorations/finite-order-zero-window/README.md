@@ -132,9 +132,9 @@ The bound \(40\) is the largest admissible quantized value ensuring the first te
 
 Run the independent finite checks with Python standard library:
 
-\`\`\`sh
+```sh
 python3 explorations/finite-order-zero-window/check_finite_window.py
-\`\`\`
+```
 
 They exhaustively examine bounded quantized convex difference sequences for small \(K\) and verify midpoint inequalities for the hinge examples. The proof above, not the finite checks, establishes the all-order result.
 
